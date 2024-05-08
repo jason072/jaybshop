@@ -1,0 +1,112 @@
+.imagetexte{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 150px;
+    width: 200px;
+    padding: 1px;
+    
+}
+img:hover{
+    box-shadow: 0px 0px 10px 0px white;
+}
+.imagetexte .image{
+    display: flex;
+    flex-direction: column;
+}
+.imagetexte .image .serie1{
+    display: flex;
+    
+}
+.imagetexte .image .serie2{
+    display: flex;
+}
+.imagetexte .image .serie3{
+    display: flex;
+}
+.imagetexte .image .serie4{
+    display: flex;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../image/nike.jpg);
+}
+.imagetexte .texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    margin: 30px;color: aquamarine;
+}
+.imagetexte .texte .texte1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+}
+.imagetexte .texte .texte2{
+    font-size: 80px;
+}
+.imagetexte .texte .texte2 span{
+    font-size: 20px;
+}
+.imagetexte .texte .texte3{
+    display: flex;
+    
+}
+.imagetexte .texte .texte3 img{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 40px;
+}
+.imagetexte .image .commande{
+    gap: 1.08rem;
+    display: flex;
+
+}
+.imagetexte .image .serie1{
+    padding: 30px;
+    margin: 30px;
+    gap: 1.35rem;
+
+}
+.imagetexte .image .serie1 img{
+    padding: 0.5rem;
+}
+.imagetexte .image .commande button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.imagetexte .image img:hover{
+   transform: scale(1.2);
+}
+.imagetexte .image .serie2{
+    padding: 30px;
+    margin: 30px;
+    gap: 1.35rem;
+
+}
+.imagetexte .image .serie2 img{
+    padding: 0.5rem;
+}
+.imagetexte .image .serie3{
+    padding: 30px;
+    margin: 30px;
+    gap: 1.35rem;
+
+}
+.imagetexte .image .serie3 img{
+    padding: 0.5rem;
+}
+.imagetexte .image .serie4{
+    padding: 30px;
+    margin: 30px;
+    gap: 1.35rem;
+
+}
+.imagetexte .image .serie4 img{
+    padding: 0.5rem;
+}
+

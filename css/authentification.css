@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: blue;
+    box-shadow: 0px 0px 30px 0px black;
+    font-size: 50px; 
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    width: 400px;
+    border-radius: 10px;
+   
+}
+form{
+    box-shadow: 0px,0px,100px,0px black;
+}
+body{
+    background-image:linear-gradient(rgba(0 ,0 ,0 ,0.6),rgba(0,0,0,0.6)), url(../image/nike.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+td{
+    color: aliceblue;
+}
+legend{
+    color: aliceblue;
+    font-size: 20px;
+}

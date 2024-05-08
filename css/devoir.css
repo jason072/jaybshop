@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    background-image: l;
+}
+.navbar .logo a{
+    color: blue;
+}
+.navbar .navlist ul li a{
+    color: blue;
+}
+.navbar .navlist ul li a:hover{
+    background-color: black;
+}
+body p{
+    text-align: center;
+    
+}
